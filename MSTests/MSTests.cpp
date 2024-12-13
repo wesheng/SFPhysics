@@ -320,12 +320,12 @@ namespace MSTests
 			circle1.setCenter(Vector2f(300, 100));
 			circle1.setSize(Vector2f(50, 50));
 			circle1.setLayer(0);
-			circle1.setFillColor(sf::Color::White);
+			circle1.setFillColor(sf::Color::Red);
 			world.AddPhysicsBody(circle1);
 
 			PhysicsCircle circle2;
 			circle2.setCenter(Vector2f(500, 100));
-			circle2.setSize(Vector2f(50, 50));
+			circle2.setSize(Vector2f(100, 100));
 			circle2.setLayer(1);
 			circle2.setFillColor(sf::Color::Green);
 			world.AddPhysicsBody(circle2);
